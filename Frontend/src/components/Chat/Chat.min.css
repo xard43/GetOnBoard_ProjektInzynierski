@@ -1,0 +1,9 @@
+.messages-box-main {
+  background: #ca1d5f;
+}
+.messages-main {
+  background: #dadada;
+  height: 18em;
+  overflow: auto;
+  overflow-x: hidden;
+}

@@ -1,0 +1,25 @@
+.image-placeholder {
+  background-color: #1abc9c;
+  width: 6em;
+  height: 6em;
+}
+
+.front-page-top-image {
+  background-image: linear-gradient(rgba(4, 147, 114, 0.1), rgba(123, 239, 178, 0.1)), url("./../../img/boardGame.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 40vh;
+}
+
+.front-page-placeholder {
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.front-page-title {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 7em;
+  color: white;
+  font-weight: lighter;
+}

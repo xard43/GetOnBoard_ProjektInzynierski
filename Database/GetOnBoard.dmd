@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="GetOnBoard" id="7C12E90D-E90C-2709-79D6-A500B2B2AA7B" version="3.5">
+<createdBy>Patryk</createdBy>
+<createdTime>2019-03-28 18:39:59 UTC</createdTime>
+<ownerDesignName>GetOnBoard</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7C12E90D-E90C-2709-79D6-A500B2B2AA7B</designId>
+</OSDM_Design>

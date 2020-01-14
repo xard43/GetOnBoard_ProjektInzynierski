@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GetOnBoard</name>
+    </assembly>
+    <members>
+        <member name="M:GetOnBoard.Controllers.AuthenticationController.Register(GetOnBoard.ViewModels.RegisterViewModel)">
+            <summary>
+            Register user in the application
+            </summary>
+            <param name="userFromBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GetOnBoard.Controllers.AuthenticationController.Login(GetOnBoard.ViewModels.LoginViewModel)">
+            <summary>
+            Login User in the application
+            </summary>
+            <param name="userFromView"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GetOnBoard.Controllers.GameSessionsController.GameSessions">
+            <summary>
+            Returns List of all GameSessions in Json
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GetOnBoard.Controllers.GameSessionsController.GetGameSession(System.Int32)">
+            <summary>
+            Get GameSession by ID
+            </summary>
+            <param name="id">GameSession ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:GetOnBoard.Controllers.GameSessionsController.PostGameSession(GetOnBoard.ViewModels.GameSession.CreateNewGSViewModel)">
+            <summary>
+            Adding new GameSession
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GetOnBoard.Controllers.GameSessionsController.DeleteGameSession(System.Int32)">
+            <summary>
+            Deletes specified GameSession
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GetOnBoard.Controllers.GameSessionsController.JoinGameSession(System.Int32)">
+            <summary>
+            Joined to exist GameSession
+            </summary>
+            <param name="gameSessionID"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

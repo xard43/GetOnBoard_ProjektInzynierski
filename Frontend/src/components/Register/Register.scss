@@ -1,0 +1,29 @@
+#RegisterForm {
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 3px 3px 0 0;
+  width: 30em;
+  height: 32em;
+  justify-content: center;
+  background: white;
+  margin: auto;
+  h1 {
+    box-sizing: border-box;
+  }
+}
+
+#RegisterTitle {
+  height: 2em;
+  width: 100%;
+  background: #1abc9c;
+  color: white;
+  line-height: 150%;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.RegisterInput {
+  margin: 1em 1em;
+  display: block;
+}

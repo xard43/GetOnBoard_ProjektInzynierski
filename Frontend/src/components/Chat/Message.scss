@@ -1,0 +1,37 @@
+.messages {
+  .message {
+    padding: 0px 10px;
+    background: #40af94;
+    h4 {
+      color: #393b3a;
+      display: inline-block;
+      font-size: 1.5em;
+      a {
+        color: #404040;
+        text-decoration: none;
+      }
+    }
+    p {
+      font-size: 1em;
+      word-break: break-all;
+      white-space: normal;
+    }
+    time {
+      font-size: 0.75em;
+      opacity: 0;
+      font-weight: 300;
+    }
+  }
+
+  .message:hover {
+    -webkit-transition: 0.25s opacity linear;
+    transition: 0.25s opacity linear;
+    time {
+      opacity: 1;
+    }
+  }
+  .user-img img {
+    width: 4em;
+    height: 4em;
+  }
+}

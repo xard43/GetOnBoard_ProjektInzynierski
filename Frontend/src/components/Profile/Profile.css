@@ -1,0 +1,262 @@
+#ProfileBody {
+  background-color: white;
+  padding: 1em;
+  height: 50em;
+}
+
+#ProfileHeader {
+  height: 5em;
+  width: 100%;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#ProfileHeaderLabel {
+  width: 60em;
+  height: 5em;
+  padding-left: 8em;
+  float: left;
+}
+
+#ProfileEdit {
+  height: 5em;
+  height: 5em;
+  float: right;
+}
+
+#ProfileEditImage {
+  background-image: url("pencil.png");
+  width: 75px;
+  height: 75px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear: both;
+  display: block;
+  float: left;
+}
+
+a.ProfileA {
+  color: red;
+}
+
+#ProfileLeftMargin {
+  background-color: white;
+  height: 27em;
+  padding: 2em 1em;
+  float: left;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  font-size: 24px;
+}
+
+#ProfilePersonal {
+  text-align: left;
+  background-color: white;
+  border: solid 1px darkgray;
+  height: 18em;
+  width: 45em;
+  margin: 1em 1em 0em 0em;
+  padding: 0px 1em;
+  float: left;
+}
+
+#ProfilePersonalLabel {
+  float: left;
+  display: block;
+  position: relative;
+  padding: 10px;
+  font-family: Verdana, sans-serif;
+  font-size: 24px;
+}
+
+#ProfilePersonal1Label {
+  clear: both;
+  display: block;
+  float: left;
+  width: 10em;
+  margin: 0.5em 0em;
+  padding: 0em 0em 0em 3em;
+}
+
+#ProfilePersonal1Data {
+  width: 14em;
+  height: 1.7em;
+  background-color: whitesmoke;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0.5em 0em;
+}
+
+#ProfilePersonal2Label {
+  clear: both;
+  display: block;
+  float: left;
+  width: 10em;
+  margin: 0.5em 0em;
+  padding: 0em 0em 0em 3em;
+}
+
+#ProfilePersonal2Data {
+  width: 14em;
+  height: 1.7em;
+  background-color: whitesmoke;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0.5em 0em;
+}
+
+#ProfilePersonal3Label {
+  clear: both;
+  display: block;
+  float: left;
+  width: 10em;
+  margin: 0.5em 0em;
+  padding: 0em 0em 0em 3em;
+}
+
+#ProfilePersonal3Data {
+  width: 14em;
+  height: 1.7em;
+  background-color: whitesmoke;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0.5em 0em;
+}
+
+#ProfilePersonal4Label {
+  clear: both;
+  display: block;
+  float: left;
+  width: 10em;
+  margin: 0.5em 0em;
+  padding: 0em 0em 0em 3em;
+}
+
+#ProfilePersonal4Data {
+  width: 24em;
+  height: 5em;
+  background-color: whitesmoke;
+  display: block;
+  float: left;
+  text-align: left;
+  padding: 0.1em 1em;
+  margin: 0.5em 0em;
+}
+
+#ProfileStats {
+  background-color: white;
+  border: solid 1px darkgray;
+  height: 18em;
+  width: 45em;
+  margin: 1em 1em 0em 0em;
+  padding: 0px 1em;
+  float: left;
+}
+
+#ProfileStatsLabel {
+  float: left;
+  display: block;
+  position: relative;
+  padding: 10px;
+  font-family: Verdana, sans-serif;
+  font-size: 24px;
+}
+
+#ProfileStats1Label {
+  clear: both;
+  display: block;
+  float: left;
+  width: 25em;
+  margin: 0.5em 0em;
+  padding: 0em 0em 0em 3em;
+}
+
+#ProfileStats1Data {
+  width: 4em;
+  height: 1.7em;
+  background-color: whitesmoke;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0.5em 0em;
+}
+
+#ProfileStats2Label {
+  clear: both;
+  display: block;
+  float: left;
+  width: 25em;
+  margin: 0.5em 0em;
+  padding: 0em 0em 0em 3em;
+}
+
+#ProfileStats2Data {
+  width: 4em;
+  height: 1.7em;
+  background-color: whitesmoke;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0.5em 0em;
+}
+
+#ProfileStats3Label {
+  clear: both;
+  display: block;
+  float: left;
+  width: 25em;
+  margin: 0.5em 0em;
+  padding: 0em 0em 0em 3em;
+}
+
+#ProfileStats3Data {
+  width: 4em;
+  height: 1.7em;
+  background-color: whitesmoke;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0.5em 0em;
+}
+
+#ProfileStats4Label {
+  clear: both;
+  display: block;
+  float: left;
+  width: 25em;
+  margin: 0.5em 0em;
+  padding: 0em 0em 0em 3em;
+}
+
+#ProfileStats4Data {
+  width: 4em;
+  height: 1.7em;
+  background-color: whitesmoke;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0.5em 0em;
+}
+
+#ProfileStats5Label {
+  clear: both;
+  display: block;
+  float: left;
+  width: 25em;
+  margin: 0.5em 0em;
+  padding: 0em 0em 0em 3em;
+}
+
+#ProfileStats5Data {
+  width: 4em;
+  height: 1.7em;
+  background-color: whitesmoke;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0.5em 0em;
+}

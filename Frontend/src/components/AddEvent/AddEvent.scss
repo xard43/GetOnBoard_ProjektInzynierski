@@ -1,0 +1,42 @@
+#AddEventForm {
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 3px 3px 0 0;
+  width: 90%;
+  height: auto;
+  justify-content: center;
+  background: white;
+  margin: auto;
+  padding-bottom: 1em;
+  h1 {
+    box-sizing: border-box;
+  }
+}
+
+#AddEventTitle {
+  height: 3em;
+  width: 100%;
+  background: #1abc9c;
+  color: white;
+  line-height: 300%;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.react-datepicker__input-container {
+  width: inherit;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.AddEventInput {
+  margin: 1em 1em;
+  display: block;
+}
+
+.react-datepicker-popper {
+  z-index: 9999 !important;
+}

@@ -1,0 +1,406 @@
+#event_popup {
+  background-color: white;
+  display: block;
+  width: 900px;
+}
+#modal-header {
+  text-align: center;
+}
+
+#event_popup_image {
+  padding: 20px;
+  float: left;
+  width: 180px;
+}
+
+#event_popup_col_left {
+  background-color: white;
+  width: 10em;
+
+  padding: 40px 10px;
+  display: block;
+  float: left;
+}
+
+#event_popup_col_right {
+  width: 620px;
+  display: block;
+  background-color: white;
+  margin-left: 260px;
+  padding: 40px 20px;
+}
+
+#EventMain {
+  //background-color: rgb(224, 221, 221);
+  background-color: white;
+  width: 69em;
+  //border-radius: 25px;
+  //border: solid 1px;
+}
+
+#EventEvent {
+  width: 70em;
+  height: 18em;
+  padding: 5px;
+}
+#EventHeader {
+  width: auto;
+  text-align: center;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 2.5em;
+  color: #000;
+}
+
+#EventGameImageContainer {
+  float: left;
+  width: 15em;
+  height: 13em;
+  //border-radius: 40px;
+  // border: solid 1px;
+}
+
+#EventGameImage {
+  padding: 0em 2em 0em 2em;
+}
+
+#EventGameImageLabel {
+  width: 14em;
+  height: 1.5em;
+  background-color: whitesmoke;
+  //border: solid 1px;
+  display: block;
+  float: left;
+  text-align: center;
+}
+#EventDescription {
+  float: left;
+
+  width: 53em;
+  height: 14em;
+  word-wrap: break-word;
+  overflow: hidden;
+  //background-color: greenyellow;
+  font-size: 16px;
+}
+#EventDescriptionLeft {
+  float: left;
+  height: 12em;
+  width: 22em;
+  //background-color: red;
+  padding: 0.5em 1em 1em 1em;
+}
+#EventDescriptionRight {
+  float: left;
+  height: 12em;
+  width: 31em;
+  //background-color: green;
+  padding: 1em;
+}
+
+#EventDescriptionCityDescription {
+  width: 40em;
+  height: 1.5em;
+  background-color: whitesmoke;
+  //border: solid 1px;
+  display: block;
+  float: left;
+  text-align: center;
+}
+// #EventButton {
+// }
+#EventDescriptionCity {
+}
+#EventDescriptionCityLabel {
+  clear: both;
+  display: block;
+  float: left;
+  width: 5em;
+  margin: 0.8em 0em;
+}
+#EventDescriptionCityDescription {
+  width: 14em;
+  height: 1.5em;
+  background-color: whitesmoke;
+  //border: solid 1px;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0.8em 0em;
+  //border-radius: 1em;
+}
+
+#EventDescriptionAddress {
+}
+#EventDescriptionAddressLabel {
+  clear: both;
+  display: block;
+  float: left;
+  width: 5em;
+  margin: 0.8em 0em;
+}
+#EventDescriptionAddressDescription {
+  width: 14em;
+  height: 1.5em;
+  background-color: whitesmoke;
+  //border: solid 1px;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0.8em 0em;
+  //border-radius: 1em;
+}
+
+#EventDescriptionDate {
+}
+#EventDescriptionDateLabel {
+  clear: both;
+  display: block;
+  float: left;
+  width: 5em;
+  margin: 0.8em 0em;
+}
+
+#EventDescriptionDateDescription {
+  width: 14em;
+  height: 1.5em;
+  background-color: whitesmoke;
+  // border: solid 1px;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0.8em 0em;
+  //border-radius: 1em;
+}
+#EventShare {
+  clear: both;
+  display: block;
+  float: left;
+  width: 14em;
+  height: 5em;
+  // border: solid 1px;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0em 0em;
+  padding-top: 1em;
+  //background-color: blueviolet;
+  //border-radius: 1em;
+}
+#EventShareMessage {
+  clear: both;
+  display: block;
+  float: left;
+  width: 20em;
+  height: 3em;
+  display: block;
+  float: left;
+  text-align: center;
+  padding: 1em 0 0 5em;
+  //background-color: blueviolet;
+}
+#EventShareComponent {
+  display: block;
+  float: left;
+}
+
+#EventAvatar {
+  clear: both;
+  display: block;
+  float: left;
+}
+#EventDescriptionGamename {
+}
+#EventDescriptionGamenameLabel {
+  clear: both;
+  display: block;
+  float: left;
+  width: 5em;
+  margin: 0.6em 0em;
+}
+
+#EventDescriptionGamenameDescription {
+  width: 14em;
+  height: 1.5em;
+  background-color: whitesmoke;
+  // border: solid 1px;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0.6em 0em;
+  //border-radius: 1em;
+}
+
+#EventDescriptionProperties {
+  height: 8em;
+}
+#EventDescriptionPropertiesLabel {
+  clear: both;
+  display: block;
+  float: left;
+  width: 5em;
+  height: 8em;
+  padding: 0.5em 0em;
+}
+#EventDescriptionPropertiesDescription {
+  width: 24em;
+  height: 8em;
+
+  background-color: whitesmoke;
+  //border: solid 1px;
+  display: block;
+  float: left;
+  padding: 0.5em 0.5em;
+  //border-radius: 1em;
+}
+
+#EventAdmin {
+  float: left;
+  padding: 0em 1.7em;
+  width: 17em;
+  text-align: center;
+
+  #topSpan {
+    border-left: 1px solid black;
+    height: 13em;
+    float: left;
+    padding-right: 0.1em; // if padding = 0, then border doesn't show
+  }
+}
+#EventAdminAvatar {
+  //border: solid 1px;
+  margin: 0em 3em;
+  //border-radius: 50%;
+}
+
+#EventChat {
+  // background-color: rgb(224, 221, 221);
+  background-color: white;
+  //border: solid 1px;
+  height: 37em;
+  margin: 1em 1em 0em 0em;
+  padding: 0px 1em;
+  float: left;
+  //border-radius: 1.5em;
+
+  h1 {
+    text-align: center;
+  }
+}
+#EventChatHeader {
+  width: 48em;
+  margin: 1em 0em 0em 0em;
+  text-align: center;
+  float: left;
+  height: 0em;
+}
+//1em = 16px
+#EventChatChat {
+  width: 46em;
+  height: 37.5em;
+  //border-radius: 0em;
+  padding: 1em;
+}
+
+//gracze
+
+#EventPlayers {
+  text-align: center;
+  width: 17.7em;
+  height: 37em;
+  margin: 1em 0em;
+  padding: 1em 0em 0em 2em;
+  float: left;
+  //background-color: rgb(224, 221, 221);
+  background-color: white;
+  //border: solid 1px;
+  //border-radius: 1.5em;
+}
+
+#EventPlayersPeople {
+  width: 12em;
+  float: left;
+}
+#EventPlayersButton {
+  margin-top: 3.5em;
+  width: 1em;
+  height: 12em;
+  float: left;
+}
+
+/* typography */
+h1 {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+  padding: 0em 0em 0.5em 1em;
+}
+
+/* list styles */
+ul.EventUl {
+  list-style: none;
+  width: 12em;
+  margin: 0;
+  padding: 0;
+}
+
+li.EventUl {
+  text-decoration: none;
+  text-align: center;
+  font: helvetica, arial, sans-serif;
+  font-size: 16px;
+  border-bottom: 1px solid #999;
+  border-radius: 1em;
+}
+
+li.EventUl:first-child {
+}
+
+li.EventUl a.EventUl {
+  text-decoration: none;
+  color: rgb(117, 115, 115);
+  display: block;
+  width: 12em;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 1em;
+
+  /* transitions and animations */
+  -webkit-transition: font-size 0.3s ease, background-color 1s ease;
+  -moz-transition: font-size 0.3s ease, background-color 1s ease;
+  -ms-transition: font-size 0.3s ease, background-color 1s ease;
+  -o-transition: font-size 0.3s ease, background-color 1s ease;
+  transition: font-size 0.3s ease, background-color 1s ease;
+}
+
+li.EventUl a.EventUl:hover {
+  font: helvetica, arial, sans-serif;
+  font-weight: bold;
+  line-height: 40px;
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+  background: whitesmoke;
+  border-radius: 1em;
+}
+
+ul.EventButton {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li.EventButton {
+  text-decoration: none;
+  font: 24px helvetica, arial, sans-serif;
+}
+
+li.EventButton:first-child {
+}
+
+li.EventButton a.EventButton {
+  text-decoration: none;
+  color: rgb(117, 115, 115);
+  display: block;
+  height: 41px;
+  line-height: 41px;
+}

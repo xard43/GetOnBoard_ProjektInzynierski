@@ -1,0 +1,336 @@
+@media only screen and (max-width: 600px) {
+  #EventMain {
+    background-color: white;
+    width: 21em;
+  }
+  #EventEvent {
+    width: 100%;
+    height: 35em;
+  }
+  #EventHeader {
+    width: auto;
+    font-size: 2.5em;
+  }
+  #EventGameImageContainer {
+    width: 100%;
+    height: 15em;
+    align-content: center;
+  }
+  #EventGameImage {
+    width: 95%;
+    padding: 1em;
+    padding-left: 6em;
+  }
+  #EventGameImageLabel {
+    width: 95%;
+    height: 1.5em;
+    background-color: whitesmoke;
+    display: block;
+    float: left;
+    text-align: center;
+    padding-left: 1em;
+  }
+  #EventDescription {
+    float: left;
+    width: 95%;
+    height: 21em;
+    word-wrap: break-word;
+    overflow: hidden;
+    font-size: 13px;
+    align-items: center;
+  }
+  #EventDescriptionLeft {
+    font-size: 10px;
+    float: left;
+    height: 13em;
+    width: 50%;
+  }
+  #EventDescriptionRight {
+    font-size: 10px;
+    height: 14em;
+    width: 50%;
+    float: left;
+  }
+  #EventDescriptionCityDescription {
+    width: 95%;
+    height: 1.5em;
+    background-color: whitesmoke;
+    display: block;
+    float: left;
+    text-align: center;
+  }
+  #EventDescriptionCityLabel {
+    clear: both;
+    display: block;
+    float: left;
+    width: 5em;
+    margin: 0;
+    margin-top: 1em;
+  }
+  #EventDescriptionCityDescription {
+    width: 13em;
+    height: 1.5em;
+    background-color: whitesmoke;
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 0;
+  }
+  #EventDescriptionAddressLabel {
+    clear: both;
+    display: block;
+    float: left;
+    width: 5em;
+    margin: 0;
+    margin-top: 1em;
+  }
+  #EventDescriptionAddressDescription {
+    width: 13em;
+    height: 1.5em;
+    background-color: whitesmoke;
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 0;
+  }
+  #EventDescriptionDateLabel {
+    clear: both;
+    display: block;
+    float: left;
+    width: 5em;
+    margin: 0;
+    margin-top: 1em;
+  }
+  #EventDescriptionDateDescription {
+    width: 13em;
+    height: 1.5em;
+    background-color: whitesmoke;
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 0;
+  }
+  #EventDescriptionGamenameLabel {
+    clear: both;
+    display: block;
+    float: left;
+    width: 5em;
+  }
+  #EventDescriptionGamenameDescription {
+    width: 20em;
+    height: 1.5em;
+    background-color: whitesmoke;
+    display: block;
+    float: left;
+    text-align: center;
+  }
+  #EventDescriptionProperties {
+    height: 8em;
+  }
+  #EventDescriptionPropertiesLabel {
+    clear: both;
+    display: block;
+    float: left;
+    width: 5em;
+    height: 2em;
+    padding: 0.5em 0em;
+    margin: 0em;
+  }
+  #EventDescriptionPropertiesDescription {
+    width: 15em;
+    height: 9.5em;
+    background-color: whitesmoke;
+    display: block;
+    float: left;
+    padding: 0.5em 0.5em;
+    margin: 0em;
+  }
+  #EventShare {
+    clear: both;
+    display: block;
+    float: left;
+    width: 100px;
+    height: 50px;
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 0.8em 0em;
+  }
+  #EventShareMessage {
+    clear: both;
+    display: block;
+    float: left;
+    width: 100%;
+    height: 5em;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 0;
+    padding-top: 2em;
+  }
+  #EventShareComponent {
+    display: block;
+    float: left;
+  }
+  #EventAdmin {
+    float: left;
+    padding: 0em 1.7em;
+    width: 17em;
+    text-align: center;
+  }
+  #EventAdmin #topSpan {
+    border-left: 1px solid black;
+    height: 13em;
+    float: left;
+    padding-right: 0.1em;
+  }
+  #EventAdminAvatar {
+    margin: 0em 3em;
+  }
+  #EventChatAndPlayers {
+    height: 5px;
+  }
+  #EventChat {
+    font-size: 10px;
+    background-color: white;
+    height: 40em;
+    width: 33.5em;
+    margin: 0em;
+    padding: 1em;
+    float: left;
+  }
+  #EventChat h1 {
+    text-align: center;
+  }
+  #EventChatHeader {
+    width: 48em;
+    margin: 1em 0em 0em 0em;
+    text-align: center;
+    float: left;
+    height: 0em;
+  }
+  #EventChatChat {
+    width: 29em;
+    height: 27.5em;
+    padding: 1em;
+  }
+  #EventPlayers {
+    text-align: center;
+    width: 21em;
+    height: 37em;
+    margin: 1em 0em;
+    padding: 1em 0em 0em 2em;
+    float: left;
+    background-color: white;
+  }
+  #EventPlayersPeople {
+    width: 12em;
+    float: left;
+  }
+  #EventPlayersButton {
+    margin-top: 3.5em;
+    width: 1em;
+    height: 12em;
+    float: left;
+  }
+  #event_popup {
+    background-color: white;
+    display: block;
+    width: 21em;
+  }
+  #event_popup_image {
+    padding: 0;
+    float: left;
+    width: 7em;
+  }
+  #event_popup_col_left {
+    background-color: white;
+    width: 9em;
+    padding: 0;
+    display: block;
+    float: left;
+    padding: 1em;
+    padding-right: 0;
+  }
+  #event_popup_col_right {
+    width: 620px;
+    display: block;
+    background-color: white;
+    margin-left: 260px;
+    padding: 1em;
+    padding-left: 0;
+  }
+  #confirmMessage {
+    width: 100px;
+  }
+  /* typography */
+  h1 {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    padding: 0em 0em 0.5em 1em;
+  }
+  /* list styles */
+  ul.EventUl {
+    list-style: none;
+    width: 12em;
+    margin: 0;
+    padding: 0;
+  }
+  li.EventUl {
+    text-decoration: none;
+    text-align: center;
+    font: helvetica, arial, sans-serif;
+    font-size: 16px;
+    border-bottom: 1px solid #999;
+    border-radius: 1em;
+  }
+  li.EventUl a.EventUl {
+    text-decoration: none;
+    color: #757373;
+    display: block;
+    width: 12em;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 1em;
+    /* transitions and animations */
+    -webkit-transition: font-size 0.3s ease, background-color 1s ease;
+    -moz-transition: font-size 0.3s ease, background-color 1s ease;
+    -ms-transition: font-size 0.3s ease, background-color 1s ease;
+    -o-transition: font-size 0.3s ease, background-color 1s ease;
+    transition: font-size 0.3s ease, background-color 1s ease;
+  }
+  li.EventUl a.EventUl:hover {
+    font: helvetica, arial, sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    text-decoration: none;
+    color: #424242;
+    background: whitesmoke;
+    border-radius: 1em;
+  }
+  ul.EventButton {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li.EventButton {
+    text-decoration: none;
+    font: 24px helvetica, arial, sans-serif;
+  }
+  li.EventButton a.EventButton {
+    text-decoration: none;
+    color: #757373;
+    display: block;
+    height: 41px;
+    line-height: 41px;
+  }
+}
+
+.footer {
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40;
+}
